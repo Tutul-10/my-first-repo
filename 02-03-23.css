@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: aliceblue;
+    padding: 7px;
+    margin-top: 10px;
+}
+
+p {
+    color: gray;
+}
+
+.img-h2 h2 {
+    line-height: 50px;
+}
+
+.header-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header {
+    background-color: gray;
+    padding: 10px;
+}
+
+.header-bio h1 {
+    color: white;
+    padding: 20px;
+
+
+}
+
+.menu-icon {
+    padding: 20px;
+    color: rgb(45, 45, 134);
+}
+
+.header-img-flex {
+    display: flex;
+}
+
+
+.header-img img {
+    width: 70px;
+    height: 70px;
+
+}
+
+.header-text {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.header-text h2 {
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.vedio-flex {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.vedio iframe {
+    width: 600px;
+    height: 400px;
+}
+
+.button-section {
+    background-color: black;
+    padding: 5px;
+    height: 400px;
+    width: 400px;
+
+}
+
+.button-section input {
+
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.button-section h1 {
+    color: white;
+}
+
+
+.input-1 input {
+    background-color: rgb(57, 57, 150);
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+
+}
+
+.input-1 input:hover {
+    background-color: blue;
+}
+
+.input-1 {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.input-2 input {
+    background-color: rgb(17, 121, 121);
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+    padding: 10px;
+}
+
+
+.input-3 input {
+    background-color: rgb(231, 233, 233);
+    font-size: 15px;
+}
+
+
+
+.input-4 input {
+    background-color: rgb(210, 215, 215);
+    font-size: 15px;
+    padding: 10px;
+}
+
+.input-5 input {
+    padding: 10px;
+}
+
+
+.input-2 input:hover {
+    background-color: rgb(9, 179, 179);
+}
+
+
+
+.input-3 {
+    padding: 10px;
+
+}
+
+.input-4 {
+    padding: 10px;
+
+}
+
+.input-5 input {
+    background-color: rgb(18, 187, 55);
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.input-5 input:hover {
+    background-color: rgb(35, 61, 9);
+}
+
+
+
+
+
+
+.header::after {
+    display: table;
+    clear: both;
+}
+
+.section-2 {
+    background-color: rgb(19, 19, 169);
+    text-align: center;
+    padding: 15px;
+}
+
+
+.img-2 img {
+    width: 200px;
+    height: 200px;
+}
+
+.img-2 img:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.img-3 img {
+    width: 200px;
+    height: 200px;
+}
+
+.img-3 img:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.img-h2 {
+    padding: 20px;
+    color: rgb(232, 230, 230);
+}
+
+
+
+.section-2::after {
+    display: table;
+    clear: both;
+}
+
+.section-3 {
+
+    background-color: blueviolet;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    place-items: center;
+
+}
+
+.section-4 {
+    background-color: rgb(144, 131, 156);
+    padding: 20px;
+
+}
+
+.section-4 h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.section-4 h3 {
+    color: white;
+    padding: 5px;
+}
+
+.section-4 p {
+    color: white;
+    padding: 5px;
+}
+
+.d-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    place-items: center;
+    padding: 20px;
+}
+
+.d-img img {
+    width: 500px;
+    height: auto;
+}
+
+.card {
+
+    background-color: blue;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+
+}
+
+.card:hover {
+    transition: 0.2s;
+    box-shadow: 1px 5px 5px black;
+}
+
+
+.card img {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.card img:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.card h2 {
+    padding: 10px;
+    color: white;
+}
+
+.value {
+    display: flex;
+    justify-content: space-around;
+}
+
+.value-flex {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.del {
+    padding: 5px;
+    color: antiquewhite;
+    text-decoration: line-through;
+}
+
+.mrp {
+    padding: 5px;
+    color: antiquewhite;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.fb img {
+    width: 60px;
+    width: 60px;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.d-footer {
+    text-align: center;
+}
+
+.fb img:hover {
+    animation-name: rotate;
+    background-color: rgb(255, 251, 0);
+    animation-duration: 0.5s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+    cursor: pointer;
+}
+
+.d-img img {
+    border-radius: 7px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+address {
+    color: ghostwhite;
+    padding: 10px;
+}
+
+.d-footer h2 {
+    color: white;
+    padding: 5px;
+}
+
+
+@media only screen and (min-width:700px) {
+    .vedio-flex {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+
+    .img-flex {
+        display: flex;
+        justify-content: space-around;
+        text-align: justify;
+
+    }
+
+    .button-section input {
+        width: 350px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width:700px) {
+    .vedio>.iframe {
+        width: 100%;
+    }
+
+    .button-section {
+        width: 100%;
+    }
+
+    .d-footer {
+        width: 100%;
+    }
+
+    .section-2 {
+        width: 100%;
+
+    }
+
+    .section-2 p {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .section-3 {
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+
+
+    }
+
+    .d-flex {
+        grid-template-columns: 1fr;
+
+    }
+
+
+
+}
+
+
+@media only screen and (max-width:600px) {
+    .section-3 {
+        grid-template-columns: 1fr;
+        justify-content: space-around;
+        pad: 10px;
+    }
+
+
+    .d-flex {
+        grid-template-columns: 1fr;
+        pad: 10px;
+    }
+
+    .d-img img {
+        width: 100%;
+    }
+
+    .d-footer h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+}
